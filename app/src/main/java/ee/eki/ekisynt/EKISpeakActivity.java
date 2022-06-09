@@ -101,7 +101,7 @@ public class EKISpeakActivity extends Activity {
             @Override
             public void onInit(int status) {
                 // TODO: print out available languages, and enable the buttons
-//                log(mTts.getVoice().getLocale().toString());
+                log(mTts.getLanguage().toString());
                 String localeAsString = "et-EE";
                 log(localeAsString + " is available? " + isLanguageAvailable(localeAsString)
                         + " status: " + status);
