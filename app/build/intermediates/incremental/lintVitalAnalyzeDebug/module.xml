@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app"
+    name=":app"
+    type="APP"
+    maven="EKISpeak:app:"
+    gradle="7.2.1"
+    buildFolder="build"
+    bootClassPath="/Users/iwalker/Library/Android/sdk/platforms/android-30/android.jar:/Users/iwalker/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-30">
+  <lintOptions
+      disable="GoogleAppIndexingWarning"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="GoogleAppIndexingWarning"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="debug"/>
+</lint-module>

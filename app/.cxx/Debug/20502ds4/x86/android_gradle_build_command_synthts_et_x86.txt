@@ -1,0 +1,7 @@
+Executable : /Users/iwalker/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/.cxx/Debug/20502ds4/x86
+synthts_et
+jvmArgs : 
+

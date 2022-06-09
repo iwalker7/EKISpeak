@@ -1,0 +1,1 @@
+/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/CMakeLists.txt

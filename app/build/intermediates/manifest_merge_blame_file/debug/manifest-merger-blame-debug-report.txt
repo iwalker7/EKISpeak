@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ee.eki.ekisynt2"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1204"
+6    android:versionName="1.2.04" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:8:5-77:19
+15        android:allowBackup="true"
+15-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.0] /Users/iwalker/.gradle/caches/transforms-3/b435c9c9cde5a7559bf6855b099cbe7a/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:11:9-41
+19        android:supportsRtl="true"
+19-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:12:9-35
+20        android:testOnly="true" >
+21        <service
+21-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:13:9-27:19
+22            android:name="ee.eki.ekisynt.EKISpeakService"
+22-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:14:13-44
+23            android:exported="true"
+23-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:15:13-36
+24            android:label="@string/service_name" >
+24-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:16:13-49
+25
+26            <!-- android:process=":remote" -->
+27            <intent-filter>
+27-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.TTS_SERVICE" />
+28-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:19:17-76
+28-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:19:25-73
+29
+30                <category android:name="android.intent.category.DEFAULT" />
+30-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:17-76
+30-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:27-73
+31            </intent-filter>
+32
+33            <meta-data
+33-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:24:13-26:54
+34                android:name="android.speech.tts"
+34-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:25:17-50
+35                android:resource="@xml/tts_engine" />
+35-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:26:17-51
+36        </service>
+37
+38        <activity
+38-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:29:9-38:20
+39            android:name="ee.eki.ekisynt.GetSampleText"
+39-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:30:13-42
+40            android:label="@string/app_name"
+40-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:31:13-45
+41            android:theme="@android:style/Theme.NoDisplay" >
+41-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:32:13-59
+42            <intent-filter>
+42-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:33:13-37:29
+43                <action android:name="android.speech.tts.engine.GET_SAMPLE_TEXT" />
+43-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:34:17-84
+43-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:34:25-81
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:17-76
+45-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:27-73
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:39:9-47:20
+49            android:name="ee.eki.ekisynt.CheckVoiceData"
+49-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:40:13-43
+50            android:theme="@android:style/Theme.NoDisplay" >
+50-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:41:13-59
+51            <intent-filter>
+51-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:42:13-46:29
+52                <action android:name="android.speech.tts.engine.CHECK_TTS_DATA" />
+52-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:43:17-83
+52-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:43:25-80
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:17-76
+54-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:27-73
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:48:9-56:20
+58            android:name="ee.eki.ekisynt.EKISpeakActivity"
+58-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:49:13-45
+59            android:label="@string/app_name" >
+59-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:50:13-45
+60            <intent-filter>
+60-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:51:13-55:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:52:17-69
+61-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:52:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:54:17-77
+63-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:54:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:57:9-65:20
+67            android:name="ee.eki.ekisynt.TtsSettingsActivity"
+67-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:58:13-48
+68            android:label="@string/tts_settings_label" >
+68-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:59:13-55
+69            <intent-filter>
+69-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:60:13-64:29
+70                <action android:name="android.speech.tts.engine.CONFIGURE_ENGINE" />
+70-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:61:17-85
+70-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:61:25-82
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:17-76
+72-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:27-73
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:67:9-76:20
+76            android:name="ee.eki.ekisynt.ProcessTextActivity"
+76-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:68:13-48
+77            android:label="@string/label_activity_process_text"
+77-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:69:13-64
+78            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" >
+78-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:70:13-82
+79            <intent-filter>
+79-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:71:13-75:29
+80                <action android:name="android.intent.action.PROCESS_TEXT" />
+80-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:72:17-77
+80-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:72:25-74
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:17-76
+82-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:21:27-73
+83
+84                <data android:mimeType="text/plain" />
+84-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:74:17-55
+84-->/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/AndroidManifest.xml:74:23-52
+85            </intent-filter>
+86        </activity>
+87    </application>
+88
+89</manifest>

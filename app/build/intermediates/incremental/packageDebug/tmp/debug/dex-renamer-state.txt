@@ -1,0 +1,4 @@
+#Thu Jun 09 18:03:53 ULAT 2022
+base.0=/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

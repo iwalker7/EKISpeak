@@ -1,0 +1,40 @@
+{
+  "buildFiles": [
+    "/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/iwalker/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/.cxx/Debug/20502ds4/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/iwalker/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/.cxx/Debug/20502ds4/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "synthts_et::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "synthts_et",
+      "output": "/Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/intermediates/cxx/Debug/20502ds4/obj/x86/libsynthts_et.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/iwalker/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/iwalker/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

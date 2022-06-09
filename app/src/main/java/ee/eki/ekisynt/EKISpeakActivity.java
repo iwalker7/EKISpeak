@@ -8,9 +8,11 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.UtteranceProgressListener;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -99,7 +101,7 @@ public class EKISpeakActivity extends Activity {
             @Override
             public void onInit(int status) {
                 // TODO: print out available languages, and enable the buttons
-                log(mTts.getLanguage().toString());
+//                log(mTts.getVoice().getLocale().toString());
                 String localeAsString = "et-EE";
                 log(localeAsString + " is available? " + isLanguageAvailable(localeAsString)
                         + " status: " + status);

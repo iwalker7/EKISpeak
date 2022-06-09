@@ -1,0 +1,11 @@
+ee.eki.ekisynt.app-appcompat-1.0.0-0 /Users/iwalker/.gradle/caches/transforms-3/500d961bcb0b5d815367365c7b2a7852/transformed/appcompat-1.0.0/res
+ee.eki.ekisynt.app-coordinatorlayout-1.0.0-1 /Users/iwalker/.gradle/caches/transforms-3/9799da5c1e0689f1193d2bfe97eafa0b/transformed/coordinatorlayout-1.0.0/res
+ee.eki.ekisynt.app-core-1.0.0-2 /Users/iwalker/.gradle/caches/transforms-3/b435c9c9cde5a7559bf6855b099cbe7a/transformed/core-1.0.0/res
+ee.eki.ekisynt.app-pngs-3 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/generated/res/pngs/debug
+ee.eki.ekisynt.app-resValues-4 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/generated/res/resValues/debug
+ee.eki.ekisynt.app-rs-5 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/generated/res/rs/debug
+ee.eki.ekisynt.app-mergeDebugResources-6 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+ee.eki.ekisynt.app-mergeDebugResources-7 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+ee.eki.ekisynt.app-merged_res-8 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/build/intermediates/merged_res/debug
+ee.eki.ekisynt.app-debug-9 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/debug/res
+ee.eki.ekisynt.app-main-10 /Users/iwalker/Documents/erxes/mobile/android-native/EKISpeak/app/src/main/res

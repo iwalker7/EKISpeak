@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/layout_activity_demo.xml.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/layout/activity_demo.xml"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/raw_eki_et_eva.htsvoice.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/raw/eki_et_eva.htsvoice"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/raw_et3.dct.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/raw/et3.dct"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/raw_et.dct.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/raw/et.dct"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/layout_activity_process_text.xml.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/layout/activity_process_text.xml"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/layout_activity_tts_settings.xml.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/layout/activity_tts_settings.xml"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/raw_eki_et_tnu.htsvoice.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/raw/eki_et_tnu.htsvoice"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ee.eki.ekisynt.app-merged_res-8:/xml_tts_engine.xml.flat",
+        "source": "ee.eki.ekisynt.app-main-10:/xml/tts_engine.xml"
+    }
+]
